@@ -1,0 +1,50 @@
+body {
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+form {
+    margin-bottom: 1rem;
+}
+
+input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    background-color: #0078d7;
+    color: white;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+#copy-btn {
+    margin-top: 0.5rem;
+    background-color: #00a67e;
+}
+
+#copy-btn:hover {
+    background-color: #008b69;
+}
+
+#phone-message {
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+#phone-hint {
+    color: #666;
+    font-size: 0.9rem;
+}

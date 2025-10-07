@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Проверка имени и телефона</title>
+</head>
+
+<body>
+    <h1>Проверка имени пользователя</h1>
+
+    <form id="username-form">
+        <input id="username" type="text" placeholder="Введите имя..." required />
+        <button type="submit">Проверить имя</button>
+    </form>
+    <p id="message"></p>
+
+    <hr />
+
+    <h2>Нормализация телефона</h2>
+    <form id="phone-form">
+        <label for="phone">Введите телефон:</label><br />
+        <input id="phone" type="text" placeholder="Например: 8 (927) 000-00-00" required />
+        <button type="submit">Нормализовать</button>
+    </form>
+
+    <p id="phone-hint">
+        Пример корректного ввода: <b>8 (927) 000-00-00</b> или <b>+7 960 000 00 00</b>
+    </p>
+
+    <p id="phone-message"></p>
+
+    <button id="copy-btn" style="display: none;">📋 Копировать результат</button>
+
+    <script src="bundle.js"></script>
+</body>
+
+</html>
